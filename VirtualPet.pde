@@ -12,6 +12,7 @@ background(100,100,255);
 public void draw(){
   handDistance();
   int y = arduino.analogRead(5);
+  y = 0;
   System.out.println(y);
 int heightChange = y;
 if(y<300){
