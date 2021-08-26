@@ -14,7 +14,7 @@ public void draw(){
 int y=0;
 int heightChange = y;
 
-background(255,0,0,20);
+background(255,0,0);
 fill(190,190,190);
 arc(200,200 + heightChange,400,400,PI,2*PI);
 rect(0,200+ heightChange,400,200);
